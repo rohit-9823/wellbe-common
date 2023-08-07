@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  front:
+    container_name: wlb-common-front
+    image: node:16-alpine3.15
+    working_dir: "/var/www/app"
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./app:/var/www/app
+    command: /bin/sh -c "yarn install && yarn dev"

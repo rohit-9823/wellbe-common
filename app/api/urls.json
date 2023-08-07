@@ -1,0 +1,17 @@
+{
+  "WCSMTP1001": "/v1/ss/symptoms_record",
+  "WCSMTP1002": "/v1/symptoms",
+  "WCSMTP1003": "/v1/ss/symptoms_record_2",
+  "WCNHV1001": "/v1/ss/next_hospital_visit",
+  "WCNHV1002": "/v1/next-hospital-visit",
+  "WCUP1001": "/v1/ss/user_profile_view",
+  "WCUP1002": "/v1/ss/user_profile_edit",
+  "WCUP1003": "/v1/user_profile",
+  "WCMI1001": "/v1/ss/medical_institution",
+  "WCMI1002": "/v1/medical_institution",
+  "WCMI1003": "/v1/mdb/crawler/complex/facilities/search",
+  "WCMI1004": "/v1/mdb/address/cities/",
+  "WCRTSP1001": "/v1/ss/retrospective",
+  "WCUSR1001": "/v1/users/self/registered_hospitals",
+  "WCSCR1001": "v1/screen/"
+}

@@ -1,0 +1,28 @@
+FROM node:16-bullseye as builder
+
+WORKDIR /var/www/app
+
+COPY ./app/package.json ./app/yarn.lock /var/www/app
+
+RUN yarn install
+
+COPY ./app /var/www/app
+RUN yarn build --standalone
+
+FROM node:16-bullseye as launcher
+WORKDIR /var/www/app
+
+COPY ./_deploy/node/package.json /var/www/app/package.json
+RUN yarn install
+
+FROM gcr.io/distroless/nodejs:16
+
+ENV HOST=0.0.0.0
+
+WORKDIR /var/www/app
+
+COPY --from=builder /var/www/app /var/www/app
+COPY --from=launcher /var/www/app/node_modules /var/www/app/node_modules
+COPY ./app/static /var/www/app/static
+
+CMD ["/var/www/app/node_modules/nuxt-start/bin/nuxt-start.js"]

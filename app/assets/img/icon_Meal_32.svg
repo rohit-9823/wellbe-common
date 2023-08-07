@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_4414" data-name="長方形 4414" width="20" height="20" transform="translate(92 508)" fill="#ebecf0"/>
+    </clipPath>
+  </defs>
+  <g id="icon_Meal_32" transform="translate(-250 -596)">
+    <rect id="長方形_4394" data-name="長方形 4394" width="32" height="32" transform="translate(250 596)" fill="#fff" opacity="0"/>
+    <g id="グループ_14036" data-name="グループ 14036" transform="translate(164 94)">
+      <rect id="長方形_4252" data-name="長方形 4252" width="24" height="24" transform="translate(90 506)" fill="#ebecf0" opacity="0"/>
+      <g id="マスクグループ_6357" data-name="マスクグループ 6357" clip-path="url(#clip-path)">
+        <g id="icon_meal" transform="translate(91.347 507.344)">
+          <path id="パス_13838" data-name="パス 13838" d="M10.666,18.137h2.778c1.84-.483,5.488-1.669,5.488-8.13H2.4c0,6.458,3.645,7.647,5.488,8.13Z" fill="#f77d72" stroke="#f77d72" stroke-linejoin="round" stroke-width="1.067"/>
+          <path id="パス_13839" data-name="パス 13839" d="M7.41,18.2c-.437,2.458,7.41,2.728,7.074-.168" fill="#f77d72" stroke="#f77d72" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.067"/>
+          <path id="パス_13840" data-name="パス 13840" d="M18.9,9.845a2.91,2.91,0,0,0-1.531-3.058c.443-4.68-3.9-3.968-3.9-3.968-2.656-3.565-5.525-.109-5.525-.109C3.626,2.2,3.893,6.842,3.893,6.842a3.956,3.956,0,0,0-1.475,3s.237,3.173,8.173,3.173S18.9,9.845,18.9,9.845Z" fill="#fff" stroke="#f77d72" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.067"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
